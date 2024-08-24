@@ -26,15 +26,27 @@ void main() {
                 Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    Text("PLAYER"),
-                    Text("0")
+                    Text(
+                        "Player",
+                      style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 48),
+                    ),
+                    Text(
+                        "0",
+                      style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 64),
+                    )
                   ],
                 ),
                 Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    Text("CPU"),
-                    Text("0")
+                    Text(
+                        "CPU",
+                      style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 48),
+                    ),
+                    Text(
+                        "0",
+                      style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 64),
+                    )
                   ],
                 )
               ],
