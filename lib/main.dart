@@ -12,7 +12,7 @@ void main() {
           image:
               DecorationImage(image: AssetImage("images/background-plain.jpg")),
         ),
-        child: Column(
+        child: const Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [Image(image: AssetImage("images/logo.png")),
           Row(
