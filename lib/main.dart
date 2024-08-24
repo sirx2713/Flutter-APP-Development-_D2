@@ -4,13 +4,12 @@ void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     home: Scaffold(
-      backgroundColor: Colors.lime,
+      //backgroundColor: Colors.lime,
       body: Container(
         alignment: Alignment.center,
-        padding: const EdgeInsets.all(32),
         decoration: const BoxDecoration(
           image:
-              DecorationImage(image: AssetImage("images/background-plain.jpg")),
+              DecorationImage(image: AssetImage("images/background-plain.jpg"),fit: BoxFit.cover,),
         ),
         child: const Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
